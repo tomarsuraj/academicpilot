@@ -1,11 +1,11 @@
-import './scss/app.scss';
+import React from 'react';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h2 className='App__text'>HELLP</h2>
+    <div>
+      <h2>Hello World! I am App</h2>
     </div>
   );
-}
+};
 
 export default App;
