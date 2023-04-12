@@ -1,0 +1,54 @@
+@import '../../../scss/styles/index.scss';
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    background-color: #fff;
+    @include border-primary;
+    margin-top: 12px;
+
+    &__left {
+        display: flex;
+
+        div {
+            margin-right: 12px;
+        }
+    }
+
+    h3 {
+        @include body-text-base-font-semibold;
+        color: $brand-800;
+    }
+
+    p {
+        @include body-text-sm-font-normal;
+        color: $natural-600-main;
+    }
+
+    button {
+        color: $status-success-600;
+        background-color: #fff;
+    }
+
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    top: 10px;
+
+    /* Brand/200 */
+
+    background: $brand-200;
+    border-radius: 10px;
+}

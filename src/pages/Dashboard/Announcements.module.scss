@@ -1,0 +1,26 @@
+@import '../../scss/styles/index.scss';
+
+.container {
+    flex: 3;
+    margin-top: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    &__announcement {
+        margin-top: 4px;
+        padding: 6px;
+        flex: 1;
+        @include border-primary;
+        @include shadow-sm;
+        background-color: #fff;
+        overflow: scroll;
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    &__announcement::-webkit-scrollbar {
+        display: none;
+        /* Safari and Chrome */
+    }
+}

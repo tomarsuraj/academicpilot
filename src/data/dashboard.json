@@ -1,0 +1,66 @@
+{
+    "RecentlyGraded": [
+        {
+            "subjectName": "Data Structure",
+            "expNumber": "1.1",
+            "score": 12,
+            "totalScore": 20
+        },
+        {
+            "subjectName": "Python",
+            "expNumber": "1.1",
+            "score": 17,
+            "totalScore": 20
+        },
+        {
+            "subjectName": "Data Structure",
+            "expNumber": "1.2",
+            "score": 12,
+            "totalScore": 20
+        },
+        {
+            "subjectName": "Web Development",
+            "expNumber": "1.1",
+            "score": 12,
+            "totalScore": 20
+        },
+        {
+            "subjectName": "Android",
+            "expNumber": "1.1",
+            "score": 12,
+            "totalScore": 20
+        }
+    ],
+    "Assignment": [
+        {
+            "subjectName": "Data Structure",
+            "dueDate": "2022-03-25",
+            "expNumber": "1.1"
+        },
+        {
+            "subjectName": "Python",
+            "expNumber": "1.1",
+            "dueDate": "2022-03-25"
+        },
+        {
+            "subjectName": "Data Structure",
+            "expNumber": "1.2",
+            "dueDate": "2022-03-25"
+        },
+        {
+            "subjectName": "Web Development",
+            "expNumber": "2.1",
+            "dueDate": "2022-04-25"
+        },
+        {
+            "subjectName": "Android",
+            "expNumber": "1.1",
+            "dueDate": "2022-03-25"
+        },
+        {
+            "subjectName": "Android",
+            "expNumber": "1.1",
+            "dueDate": "2022-03-25"
+        }
+    ]
+}

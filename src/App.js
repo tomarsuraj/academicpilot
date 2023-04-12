@@ -1,10 +1,31 @@
 import React from 'react';
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Header, SideBar } from './Components';
+import { Assigments, Attendance, Calender, Gradebook, Dashboard, Notes, NotFound, Subjects } from './pages';
+import sty from './App.module.scss'
 const App = () => {
   return (
-    <div>
-      <h2>Hello World! I am App</h2>
-    </div>
+    <BrowserRouter>
+      <div className={sty.container}>
+        <div className={sty.sideBar}>
+          <SideBar />
+        </div>
+        <div className={sty.body}>
+          <Header />
+          <Routes>
+            <Route path='/' element={<Dashboard />} />
+            <Route path='/attendance' element={<Attendance />} />
+            <Route path='/assignments' element={<Assigments />} />
+            <Route path='/calender' element={<Calender />} />
+            <Route path='/gradebook' element={<Gradebook />} />
+            <Route path='/notes' element={<Notes />} />
+            <Route path='/subjects' element={<Subjects />} />
+            <Route path='*' element={<NotFound />} />
+          </Routes>
+        </div>
+      </div>
+    </BrowserRouter>
+
   );
 };
 

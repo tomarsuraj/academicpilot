@@ -1,0 +1,36 @@
+@import "../../../scss/styles/index.scss";
+
+.container {
+    @include border-primary;
+    background-color: $basic-white;
+    margin-bottom: 12px;
+    padding: 6px 12px 6px 12px;
+
+    div {
+        display: flex;
+        margin-top: 12px;
+        margin-bottom: 6px;
+
+        button {
+            width: 114px;
+            height: 27px;
+
+            margin-right: 12px;
+
+            /* Brand/50 */
+
+            background: $brand-50;
+            border-radius: 5px;
+        }
+
+        p {
+            color: $natural-700;
+            @include body-text-sm-font-semibold;
+        }
+    }
+
+    h3 {
+        @include body-text-base-font-semibold;
+        color: $brand-800;
+    }
+}

@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 10px;
+    overflow: hidden;
+
+    &__cardHolder {
+        overflow: scroll;
+        scrollbar-width: none;
+        flex: 1;
+        /* Firefox */
+    }
+
+    &__cardHolder::-webkit-scrollbar {
+        display: none;
+        /* Safari and Chrome */
+    }
+}

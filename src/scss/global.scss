@@ -2,19 +2,25 @@
 
 @import './styles/';
 
-*,*::after,*::before {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: none;
 }
+
 html {
     font-family: Nunito;
     background-color: $natural-100;
 }
-input, button {
- font-family: Nunito;
+
+input,
+button {
+    font-family: Nunito;
 }
+
 
 input:focus,
 select:focus,
@@ -22,4 +28,3 @@ textarea:focus,
 button:focus {
     outline: none;
 }
-
