@@ -62,5 +62,31 @@
             "expNumber": "1.1",
             "dueDate": "2022-03-25"
         }
+    ],
+    "todayClasses": [
+        {
+            "className": "EMBEDDED PROGRAMMING",
+            "time": "9:00 am- 10:00 am"
+        },
+        {
+            "className": "Python PROGRAMMING",
+            "time": "9:00 am- 10:00 am"
+        },
+        {
+            "className": "Java PROGRAMMING",
+            "time": "9:00 am- 10:00 am"
+        },
+        {
+            "className": "DSA",
+            "time": "9:00 am- 10:00 am"
+        },
+        {
+            "className": "EMBEDDED PROGRAMMING",
+            "time": "9:00 am- 10:00 am"
+        },
+        {
+            "className": "EMBEDDED PROGRAMMING",
+            "time": "9:00 am- 10:00 am"
+        }
     ]
 }
