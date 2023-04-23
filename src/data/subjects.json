@@ -1,0 +1,28 @@
+{
+    "SubjectList":[
+        {
+            "subjectName": "EMBEDDED PROGRAMMING",
+            "attandacePercentage": 56
+        },
+        {
+            "subjectName": "Python PROGRAMMING",
+            "attandacePercentage":99 
+        },
+        {
+            "subjectName": "Java PROGRAMMING",
+            "attandacePercentage":56
+        },
+        {
+            "subjectName": "DSA",
+            "attandacePercentage": 78
+        },
+        {
+            "subjectName": "EMBEDDED PROGRAMMING",
+            "attandacePercentage": 96
+        },
+        {
+            "subjectName": "EMBEDDED PROGRAMMING",
+            "attandacePercentage": 91
+        }
+    ]
+}

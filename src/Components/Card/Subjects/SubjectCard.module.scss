@@ -1,0 +1,39 @@
+@import "../../../scss/styles/index.scss";
+
+.container {
+  background-color: $basic-white;
+  margin: 16px;
+  padding: 16px;
+
+  @include shadow-md;
+  @include border-primary;
+  &__title {
+    background-color: $natural-700;
+    padding: 12px;
+    display: flex;
+    color: $basic-white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    @include border-primary;
+
+    h3 {
+      @include body-text-lg-font-semibold_capital;
+
+      margin-left: 12px;
+      color: $basic-white;
+    }
+  }
+
+  &__btnContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+
+    button {
+      background-color: $basic-white;
+      color: $natural-600-main;
+      text-align: center;
+    }
+  }
+}

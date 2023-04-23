@@ -1,0 +1,42 @@
+@import "../../scss/styles/index.scss";
+.container {
+  &__text {
+    margin-top: 12px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    @include body-text-base-font-normal;
+    color: $brand-600-main;
+  }
+
+  &__slider {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 8px;
+    .netural {
+      display: flex;
+      height: 100%;
+      .total {
+        height: 100%;
+        background-color: $brand-500;
+      }
+      .fill {
+        height: 100%;
+        background-color: $brand-900;
+      }
+    }
+    .success {
+      display: flex;
+      height: 100%;
+      .total {
+        height: 100%;
+        background-color: $status-success-50;
+      }
+      .fill {
+        height: 100%;
+        background-color: $status-success-600;
+      }
+    }
+  }
+}

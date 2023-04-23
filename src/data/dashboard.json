@@ -88,5 +88,31 @@
             "className": "EMBEDDED PROGRAMMING",
             "time": "9:00 am- 10:00 am"
         }
+    ],
+    "Attendance": [
+        {
+            "className": "EMBEDDED PROGRAMMING",
+            "attandacePercentage": 56
+        },
+        {
+            "className": "Python PROGRAMMING",
+            "attandacePercentage":99 
+        },
+        {
+            "className": "Java PROGRAMMING",
+            "attandacePercentage":56
+        },
+        {
+            "className": "DSA",
+            "attandacePercentage": 78
+        },
+        {
+            "className": "EMBEDDED PROGRAMMING",
+            "attandacePercentage": 96
+        },
+        {
+            "className": "EMBEDDED PROGRAMMING",
+            "attandacePercentage": 91
+        }
     ]
 }
