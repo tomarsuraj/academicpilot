@@ -1,4 +1,4 @@
-import Assigments from "./Assignments/Assigments";
+import Assignments from "./Assignments/Assignments";
 import Attendance from "./Attendance/Attendance";
 import Calender from "./Calender/Calender";
 import Dashboard from "./Dashboard/Dashboard";
@@ -9,7 +9,7 @@ import Subjects from "./Subjects/Subjects";
 export {
   Dashboard,
   Attendance,
-  Assigments,
+  Assignments,
   Calender,
   Gradebook,
   Notes,

@@ -6,7 +6,7 @@ const Subjects = () => {
   return (
     <div className={sty.container}>
       <h2>My Subjects</h2>
-      <div className={sty.container__cardHolder}>
+      <div className={sty.container__body}>
         {data.SubjectList.map((value, index) => (
           <SubjectCard
             name={value.subjectName}

@@ -1,0 +1,72 @@
+@import "../../../scss/styles/index.scss";
+.container {
+  background-color: $basic-white;
+
+  @include border-primary;
+  margin: 12px;
+  padding: 12px;
+  &__title {
+    display: flex;
+    @include body-text-lg-font-semibold;
+    color: $brand-800;
+    align-items: center;
+    margin-bottom: 12px;
+
+    &__iconContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      gap: 10px;
+
+      width: 40px;
+      height: 40px;
+      left: 10px;
+      top: 10px;
+      margin-right: 12px;
+      /* Brand/200 */
+
+      background: $brand-200;
+      border-radius: 10px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    button {
+      background-color: transparent;
+      @include body-text-sm-font-semibold;
+      color: $status-success-600;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  hr {
+    background-color: $natural-500;
+    color: $natural-500;
+    border-color: $natural-500;
+    height: 1px;
+  }
+}
+
+.success {
+  color: $status-success-600;
+}
+
+.danger {
+  color: $status-danger-600;
+}
+.warn {
+  color: $status-warn-600;
+}

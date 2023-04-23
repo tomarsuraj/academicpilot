@@ -25,7 +25,7 @@ const SideBar = () => {
             <MdDashboard />
             <p> Dashboard</p>
           </Link>
-          <Link to="/assigments" className={sty.link}>
+          <Link to="/assignments" className={sty.link}>
             <MdAssignmentAdd /> <p>Assignments </p>
           </Link>
           <Link to="/subjects" className={sty.link}>

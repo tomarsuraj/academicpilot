@@ -1,0 +1,39 @@
+@import "../../scss/styles/index.scss";
+
+.container {
+  padding: 24px 24px 12px 24px;
+
+  &__topBar {
+    display: flex;
+    justify-content: space-between;
+    @include mobile-headline-xl;
+    color: $brand-900;
+    &__right {
+      display: flex;
+
+      div {
+        margin-right: 24px;
+        display: flex;
+        align-items: center;
+        color: $brand-800;
+        @include body-text-lg-font-semibold;
+        select {
+          background-color: transparent;
+          margin-left: 12px;
+          @include body-text-lg-font-semibold;
+          text-align: center;
+          color: $brand-600-main;
+        }
+      }
+    }
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    width: 100%;
+    height: 100%;
+    margin-top: 24px;
+  }
+}
