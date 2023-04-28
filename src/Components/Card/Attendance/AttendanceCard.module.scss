@@ -1,0 +1,40 @@
+@import "../../../scss/styles/index.scss";
+
+.container {
+  margin: 6px;
+  background-color: $basic-white;
+  padding: 6px;
+  @include border-primary;
+
+  p {
+    @include body-text-sm-font-semibold;
+    color: $brand-600-main;
+  }
+
+  &__presentPer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0px 24px 0px;
+    p {
+      @include mobile-headline-4xl;
+    }
+  }
+
+  &__detailContainer {
+    display: flex;
+    div {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-top: 1px solid $natural-300;
+    }
+
+    &__center {
+      border-left: 1px solid $natural-300;
+      border-right: 1px solid $natural-300;
+    }
+  }
+}

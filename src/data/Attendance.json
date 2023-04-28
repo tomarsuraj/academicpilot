@@ -1,0 +1,55 @@
+{
+    "SubjectList":[
+        {
+            "subjectName": "EMBEDDED PROGRAMMING",
+            "total":10,
+            "present":9
+
+        },
+        {
+            "subjectName": "Python PROGRAMMING",
+            "total":10,
+            "present":7
+        },
+        {
+            "subjectName": "Java PROGRAMMING",
+            "total":12,
+            "present":7
+        },
+        {
+            "subjectName": "DSA",
+            "total":15,
+            "present":9
+        },
+        {
+            "subjectName": "Software Testing",
+            "total":20,
+            "present":20
+        },
+        {
+            "subjectName": "Web Development",
+            "total":10,
+            "present":7
+        }
+    ],
+    "details":{
+        "today":[{
+            "name":"Web Development",
+            "isPresent":true
+        },
+        {
+            "name":"Software Testing",
+            "isPresent":true
+        },
+        {
+            "name":"DSA",
+            "isPresent":false
+        },
+        {
+            "name":"Web Development",
+            "isPresent":true
+        }
+    
+    ]
+    }
+}

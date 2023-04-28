@@ -81,7 +81,7 @@
             "time": "9:00 am- 10:00 am"
         },
         {
-            "className": "EMBEDDED PROGRAMMING",
+            "className": "Software Testing",
             "time": "9:00 am- 10:00 am"
         },
         {
@@ -108,11 +108,11 @@
             "attandacePercentage": 78
         },
         {
-            "className": "EMBEDDED PROGRAMMING",
+            "className": "Software Testing",
             "attandacePercentage": 96
         },
         {
-            "className": "EMBEDDED PROGRAMMING",
+            "className": "Web Development",
             "attandacePercentage": 91
         }
     ]
