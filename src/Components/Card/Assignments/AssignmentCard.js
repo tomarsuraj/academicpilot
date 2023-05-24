@@ -2,10 +2,15 @@ import React from "react";
 import sty from "./AssignmentCard.module.scss";
 import { MdAssignmentAdd } from "react-icons/md";
 import { RxDotFilled } from "react-icons/rx";
-const AssignmentsCard = ({ name, expNumber, dueDate }) => {
+import { useNavigate } from "react-router-dom";
+const AssignmentsCard = ({ name, expNumber, dueDate, isQuiz }) => {
+  const navigate = useNavigate();
   const date = new Date(dueDate);
   return (
-    <div className={sty.container}>
+    <div
+      className={sty.container}
+      onClick={() => (isQuiz ? navigate("/quiz") : navigate("/experiment"))}
+    >
       <div className={sty.container__title}>
         <div className={sty.container__title__iconContainer}>
           <MdAssignmentAdd />
@@ -15,7 +20,9 @@ const AssignmentsCard = ({ name, expNumber, dueDate }) => {
 
       <div className={sty.container__content}>
         <RxDotFilled size={30} className={sty.success} />
-        <p>Experiment {expNumber}</p>
+        <p>
+          {isQuiz ? "Quiz" : "Experiment"} {expNumber}
+        </p>
       </div>
       <div className={sty.container__content}>
         <RxDotFilled size={30} className={sty.danger} />

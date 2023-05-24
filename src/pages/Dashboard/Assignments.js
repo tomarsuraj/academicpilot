@@ -13,6 +13,7 @@ const Assignments = () => {
               name={val.subjectName}
               expNumber={val.expNumber}
               duedate={val.dueDate}
+              isQuiz={val.isQuiz}
             />
           );
         })}

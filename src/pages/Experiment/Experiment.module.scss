@@ -1,0 +1,107 @@
+@import "../../scss/styles/index.scss";
+
+.container {
+  padding: 24px 24px 12px 24px;
+
+  &__heading {
+    display: flex;
+    align-items: center;
+
+    p {
+      @include mobile-headline-xl;
+      margin-left: 12px;
+      color: $natural-700;
+    }
+  }
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+  margin-top: 36px;
+}
+
+.assignmentQuestion {
+  flex: 5;
+  background-color: $basic-white;
+  padding: 24px;
+  @include border-primary;
+  margin-right: 12px;
+
+  h3 {
+    @include mobile-headline-xl;
+    color: $natural-700;
+  }
+  p {
+    color: $natural-800;
+    margin-top: 12px;
+    text-align: justify;
+  }
+}
+.assignmentDetail {
+  background-color: $basic-white;
+  padding: 12px;
+  @include border-primary;
+
+  p {
+    color: $natural-700;
+    @include body-text-lg-font-semibold;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0px 0px 12px;
+
+    p {
+      @include body-text-base-font-normal;
+      color: $natural-600-main;
+    }
+  }
+}
+
+.editor {
+  background-color: $basic-white;
+  @include border-primary;
+  margin-right: 12px;
+  height: 50vh;
+}
+
+.subbmission {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &__attachFile {
+    display: flex;
+    background-color: $basic-white;
+    @include border-primary;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+
+  &__attachFileDetails {
+    margin-top: 12px;
+    p {
+      color: $brand-600-main;
+      @include body-text-base-font-normal;
+      text-align: center;
+    }
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 12px;
+    }
+  }
+
+  button {
+    background-color: $brand-600-main;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    color: $basic-white;
+    margin-top: 24px;
+  }
+}

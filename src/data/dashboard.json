@@ -35,32 +35,38 @@
         {
             "subjectName": "Data Structure",
             "dueDate": "2022-03-25",
-            "expNumber": "1.1"
+            "expNumber": "1.1",
+            "isQuiz": true
         },
         {
             "subjectName": "Python",
             "expNumber": "1.1",
-            "dueDate": "2022-03-25"
+            "dueDate": "2022-03-25",
+            "isQuiz": false
         },
         {
             "subjectName": "Data Structure",
             "expNumber": "1.2",
-            "dueDate": "2022-03-25"
+            "dueDate": "2022-03-25",
+            "isQuiz": false
         },
         {
             "subjectName": "Web Development",
             "expNumber": "2.1",
-            "dueDate": "2022-04-25"
+            "dueDate": "2022-04-25",
+            "isQuiz": true
         },
         {
             "subjectName": "Android",
             "expNumber": "1.1",
-            "dueDate": "2022-03-25"
+            "dueDate": "2022-03-25",
+            "isQuiz": false
         },
         {
             "subjectName": "Android",
             "expNumber": "1.1",
-            "dueDate": "2022-03-25"
+            "dueDate": "2022-03-25",
+            "isQuiz": false
         }
     ],
     "todayClasses": [

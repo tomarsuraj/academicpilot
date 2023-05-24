@@ -3,6 +3,7 @@ import sty from "./Assignments.module.scss";
 import AssignmentCard from "../../Components/Card/Assignments/AssignmentCard";
 
 import data from "../../data/dashboard.json";
+
 const Assignments = () => {
   return (
     <div className={sty.container}>
@@ -45,6 +46,7 @@ const Assignments = () => {
               name={val.subjectName}
               expNumber={val.expNumber}
               dueDate={val.dueDate}
+              isQuiz={val.isQuiz}
             />
           );
         })}

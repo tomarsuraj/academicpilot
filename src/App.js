@@ -10,6 +10,8 @@ import {
   Notes,
   NotFound,
   Subjects,
+  Quiz,
+  Experiment,
 } from "./pages";
 import sty from "./App.module.scss";
 const App = () => {
@@ -29,6 +31,8 @@ const App = () => {
             <Route path="/gradebook" element={<Gradebook />} />
             <Route path="/notes" element={<Notes />} />
             <Route path="/subjects" element={<Subjects />} />
+            <Route path="/quiz" element={<Quiz />} />
+            <Route path="/experiment" element={<Experiment />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
